@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио художника</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Портфолио художника</h1>
+        <nav>
+            <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="gallery">
+            <h2>Галерея работ</h2>
+            <div class="gallery-container">
+                <figure>
+                    <img src="https://avatars.mds.yandex.net/i?id=df6046367403b4a9542a1a8332b83c2375455cb3-12510741-images-thumbs&n=13" alt="Работа 1">
+                    <figcaption>Акварельный пейзаж</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://avatars.mds.yandex.net/i?id=563cf250b1693c120c9fdcb7045410541fb0067f-9148232-images-thumbs&n=13" alt="Работа 2">
+                    <figcaption>Цифровой портрет</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="about">
+            <h2>О художнике</h2>
+            <p>Я — художник с более чем 10-летним опытом работы в разных техниках: акварель, масло, цифровая живопись.</p>
+            <ul>
+                <li>Техники: акварель, масло, графика</li>
+                <li>Направления: портреты, пейзажи, абстракция</li>
+                <li>Годы опыта: с 2015 года</li>
+            </ul>
+        </section>
+        <section id="contacts">
+            <h2>Связаться со мной</h2>
+            <form action="#" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">кинуть</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Учебный проект</p>
+        <a href="https://vk.com" target="_blank">Перейти на внешний сайт</a>
+    </footer>
+</body>
+</html>
